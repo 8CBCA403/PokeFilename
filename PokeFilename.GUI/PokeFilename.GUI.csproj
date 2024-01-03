@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <OutputType>Library</OutputType>
-    <LangVersion>11</LangVersion>
+    <LangVersion>12</LangVersion>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
 	<PackageReference Include="Costura.Fody" Version="5.8.0-alpha0098" PrivateAssets="all" />
-	<PackageReference Include="Fody" Version="6.6.4" PrivateAssets="all" />
-    <PackageReference Include="PKHeX.Core" Version="23.7.10" ExcludeAssets="runtime" />
+	<PackageReference Include="Fody" Version="6.8.0" PrivateAssets="all" />
+    <PackageReference Include="PKHeX.Core" Version="23.12.22" ExcludeAssets="runtime" />
   </ItemGroup>
 
   <ItemGroup>
